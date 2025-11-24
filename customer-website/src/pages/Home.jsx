@@ -7,8 +7,11 @@ const Home = () => {
       {/* Hero Section */}
       <section className="text-center py-16">
         <h1 className="text-5xl font-bold text-gray-800 mb-4">
-          ORIS Delivery in Maseno ⚡
+          ORIS
         </h1>
+        <h2 className="text-5xl font-bold text-gray-800 mb-4">
+           ORIS Delivery in Maseno ⚡
+        </h2>
         <p className="text-xl text-gray-600 mb-8">
           20-30 minute delivery to Market, Space, Umbwa Kali, Niles, Linwick & GV
         </p>
@@ -55,21 +58,21 @@ const Home = () => {
                 to="/products" 
                 className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-green-700 transition inline-block"
               >
-              B Add to Cart
+              Add to Cart
               </Link>
             </div>
           ))}
         </div>
       </section>
 
-    s {/* Features */}
+     {/* Features */}
       <section className="py-12 bg-white rounded-lg my-8">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">Why Choose PuffVibe Maseno?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          s <div className="text-center">
+           <div className="text-center">
               <div className="text-3xl mb-4">⚡</div>
-s             <h3 className="text-xl font-semibold mb-2">Lightning Fast</h3>
+             <h3 className="text-xl font-semibold mb-2">Lightning Fast</h3>
               <p className="text-gray-600">20-30 minute delivery guaranteed</p>
             </div>
             <div className="text-center">
@@ -86,12 +89,12 @@ s             <h3 className="text-xl font-semibold mb-2">Lightning F
         </div>
       </section>
 
-s    {/* Delivery Areas */}
+    {/* Delivery Areas */}
       <section className="py-12">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-8">🚚 Delivery Areas (20-30 mins)</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 text-sm">
-      s     <div className="bg-white p-4 rounded-lg shadow border text-center">
+           <div className="bg-white p-4 rounded-lg shadow border text-center">
               <div className="text-2xl mb-2">🛒</div>
               <div className="font-semibold">Market</div>
             </div>
@@ -99,12 +102,12 @@ s    {/* Delivery Areas */}
               <div className="text-2xl mb-2">🏟️</div>
               <div className="font-semibold">Space</div>
             </div>
-s          <div className="bg-white p-4 rounded-lg shadow border text-center">
+          <div className="bg-white p-4 rounded-lg shadow border text-center">
               <div className="text-2xl mb-2">🐕</div>
               <div className="font-semibold">Umbwa Kali</div>
             </div>
             <div className="bg-white p-4 rounded-lg shadow border text-center">
-d             <div className="text-2xl mb-2">🏠</div>
+             <div className="text-2xl mb-2">🏠</div>
               <div className="font-semibold">Niles</div>
             </div>
             <div className="bg-white p-4 rounded-lg shadow border text-center">
@@ -113,11 +116,11 @@ d             <div className="text-2xl mb-2">🏠</div>
             </div>
             <div className="bg-white p-4 rounded-lg shadow border text-center">
               <div className="text-2xl mb-2">🎓</div>
-          s  <div className="font-semibold">GV</div>
+            <div className="font-semibold">GV</div>
             </div>
           </div>
           <p className="text-green-600 font-medium mt-6 text-lg">
-x           ⚡ Delivery Time: 20-30 minutes to all locations!
+          ⚡ Delivery Time: 20-30 minutes to all locations!
           </p>
         </div>
       </section>
