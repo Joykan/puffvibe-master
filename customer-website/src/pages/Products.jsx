@@ -210,7 +210,7 @@ const Products = () => {
               <strong>Delivery Areas:</strong> Market, Space, Umbwa Kali, Niles, Linwick, GV
             </p>
             <p className="text-purple-600 text-sm font-medium mt-1">
-              🚀 Delivery Time: 20-30 minutes • 💰 Delivery Fee: KSh 50
+              🚀 Delivery Time: 20-30 minutes • 💰 Delivery Fee: KSh 15
             </p>
           </div>
         </div>
